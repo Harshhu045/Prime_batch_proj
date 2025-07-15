@@ -1,23 +1,22 @@
-<<<<<<< HEAD
-// import { HiArrowCircleDown } from 'react-icons/hi';
-// import { HiArrowCircleUp } from 'react-icons/hi';
-const Navbar = () => {
-  return (
-    <div className="flex justify-around p-3 m-3 text-center items-center">
-      <div><img src="https://programmingpathshala.com/_next/static/media/PpaLogo.d30bfdd2.svg" alt="" /></div>
-      <div className="flex justify-center gap-4 items-center">
-        <p className="text-lg text-gray-700">Explore courses</p>
-        <p>Success stories</p>
-        <p>Blogs</p>
-        <p>Events</p>
-      </div>
-      <div className="flex justify-center items-center">
-        <button>Log in</button>
-        <button>Start free Trial</button>
-      </div>
-    </div>
-  )
-=======
+// import React from 'react';
+// // import { HiArrowCircleDown } from 'react-icons/hi';
+// // import { HiArrowCircleUp } from 'react-icons/hi';
+// const Navbar = () => {
+//     return (
+//         <div className="flex justify-around p-3 m-3 text-center items-center">
+//             <div><img src="https://programmingpathshala.com/_next/static/media/PpaLogo.d30bfdd2.svg" alt="" /></div>
+//             <div className="flex justify-center gap-4 items-center">
+//                 <p className="text-lg text-gray-700">Explore courses</p>
+//                 <p>Success stories</p>
+//                 <p>Blogs</p>
+//                 <p>Events</p>
+//             </div>
+//             <div className="flex justify-center items-center">
+//                 <button>Log in</button>
+//                 <button>Start free Trial</button>
+//             </div>
+//         </div>
+//     )
 import { useState } from 'react';
 import { ArrowDown } from './vectors/ArrowDown';
 import { ArrowUp } from './vectors/ArrowUp';
@@ -56,12 +55,11 @@ const Navbar = () => {
             <div className="flex justify-center items-center gap-4">
                 <button className='w-20 h-8 bg-buttobg rounded hover:scale-105 transition-all font-semibold cursor-pointer'>Log in</button>
                 <button className="bg-gradient-to-b from-indigo-600 to-cyan-500 text-white font-semibold py-2 px-5 rounded hover:scale-105 transition-all">
-  Start Free Trial
-</button>   
+                    Start Free Trial
+                </button>
             </div>
         </div>
     )
->>>>>>> 4cc6665f1f5ac75f679c8daea4dedff09887cd2f
 }
 export default Navbar
 
